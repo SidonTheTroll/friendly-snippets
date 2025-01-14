@@ -94,6 +94,11 @@
         "body": "----------\n",
         "description": "Insert horizontal rule"
     },
+    "Insert break":{
+        "prefix": "br",
+        "body": ["<div style=\"page-break-after: always\"></div>\n"],
+        "description": "Insert break"
+    },
     "Insert task list": {
         "prefix": "task",
         "body": ["- [${1| ,x|}] ${2:text}", "${0}"],
