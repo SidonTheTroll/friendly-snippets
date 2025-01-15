@@ -39,10 +39,15 @@
         "body": ["<${1}> ${0}"],
         "description": "Add urls"
     },
-    "Images": {
+    "Image": {
         "prefix": "img",
+        "body": ["<img src=\"${0}\">"],
+        "description": "Add image"
+    },
+    "Md-Image": {
+        "prefix": "md-img",
         "body": ["![${1:alt text}](${2:path}) ${0}"],
-        "description": "Add images"
+        "description": "Add image"
     },
     "Insert strikethrough": {
         "prefix": "strikethrough",
